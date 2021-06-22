@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "vivian_weather"/>
+    <version value = "2"/>
+    <list>
+        <mapping class = "com.vivian.Weather.GSON.DailyDTO"/>
+        <mapping class="com.vivian.Weather.GSON.IdAndName"/>
+        <mapping class="com.vivian.Weather.GSON.NowDTO"/>
+        <mapping class="com.vivian.Weather.GSON.HourlyDTO"/>
+    </list>
+</litepal>
